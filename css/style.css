@@ -118,6 +118,17 @@ body{
 
 /* highlights section styles */
 
+/* web link styles */
+
+.match-link{
+    text-align: center;
+}
+.match-link h2{
+    color: chocolate;    
+}
+
+/* web link styles */
+
 /* top ranking section styles */
 
 .rank{
@@ -226,7 +237,7 @@ media queries
         height: 100%;
         margin: 30px 0;
     }
-    .rank{
+    .match-link{
         margin-top: 300px;
     }
 }

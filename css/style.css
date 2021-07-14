@@ -118,7 +118,7 @@ body{
 
 /* highlights section styles */
 
-/* rank section styles */
+/* top ranking section styles */
 
 .rank{
     box-shadow: 2px 2px 40px 10x #0A0826;
@@ -141,7 +141,8 @@ body{
 .trophy{
     color: goldenrod;
 }
-/* rank section styles */
+
+/* top ranking section styles */
 
 /* footer styles */
 
@@ -157,7 +158,7 @@ body{
     margin: 20px 14px;
 }
 .footer a{
-    color: lightseagreengit;
+    color: lightseagreen;
 }
 #github:hover{
     color: #7DBBE6;

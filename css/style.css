@@ -261,11 +261,26 @@ media queries
 
 /* for medium screen */
 
+/* for medium large screen */
+
+@media only screen and (min-width: 1024px) and (max-width: 1540px) {
+    .title h1{
+        font-size: 64px;
+        line-height: 80px;
+    }
+}
+
+/* for medium large screen */
+
 /* for large screen */
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1540px) {
     .banner-area{
         width: 100%;
+    }
+    .title h1{
+        font-size: 72px;
+        line-height: 90px;
     }
     .players{
         grid-template-columns: repeat(4, 1fr);

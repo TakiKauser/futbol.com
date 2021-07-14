@@ -121,11 +121,11 @@ body{
 /* rank section styles */
 
 .rank{
-    display: flex;
-    justify-content: space-around;
     box-shadow: 2px 2px 40px 10x #0A0826;
     padding-bottom: 30px;
-    color: #0A0826
+    width: 60%;
+    margin: 10% 20%;
+    box-shadow: 0px 0px 40px 0px rgba(10, 8, 38, 0.171);
 }
 .top-ranked{
     display: grid;
@@ -133,7 +133,13 @@ body{
     text-align: center;
 }
 .top-ranked:hover{
-    color: orangered;
+    color: blue;
+}
+.team-color{
+    color: #0A0826;
+}
+.trophy{
+    color: goldenrod;
 }
 /* rank section styles */
 
@@ -218,8 +224,8 @@ media queries
         height: 100%;
         margin: 30px 0;
     }
-    .footer{
-        padding-top: 200px;
+    .rank{
+        margin-top: 300px;
     }
 }
 
@@ -313,9 +319,6 @@ media queries
         width: 100%;
         height: 100%;
         margin: 30px 0;
-    }
-    .footer{
-        padding-top: 400px;
     }
 }
 

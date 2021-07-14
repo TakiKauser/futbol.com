@@ -94,6 +94,26 @@ body{
 }
 /* player details styles */
 
+/* highlights section styles */
+
+.description{
+    width: 85%;
+}
+.description h1{
+    color: #0A0826;
+    font-size: 48px;
+    line-height: 60px;
+}
+.description .info{
+    margin-bottom: 24px;
+}
+.highlights-image img{
+    width: 98%;
+    height: 427px;
+    
+}
+/* highlights section styles */
+
 /* footer styles */
 
 .footer{

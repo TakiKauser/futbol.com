@@ -156,6 +156,9 @@ body{
     font-size: 32px;
     margin: 20px 14px;
 }
+.footer a{
+    color: lightseagreengit;
+}
 #github:hover{
     color: #7DBBE6;
 }
